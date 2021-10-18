@@ -1,0 +1,241 @@
+/* PERFIL (FAMÍLIA) */
+
+html {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+.backgroud {
+    position: relative;
+    width: 1440px;
+    height: 2037px;
+    background: #FFFFFF;
+    }
+    
+    /* Header */
+.header {
+    display: flex;
+    margin: 20px 50px;
+}
+.header__logo {
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+.header__logo-icon {
+    background-image: url("/src/Images/Logo_Header.png");
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
+.header__logo--text {
+    background-image: url("/src/Images/Logo_Header_2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 40px;
+}
+.header nav {
+    width: 60%;
+}
+.header__navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px 0 180px;
+}
+.header__navbar--tab {
+    color: #9dc8cf;
+    font-weight: 700;
+    cursor: pointer;
+}
+.header__navbar--tab:hover {
+    color: #263b58;
+}
+    
+.header__logo--icon{
+    background-image: url("/src/Images/Logo_Header.png");
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
+/* Banner_1 */
+
+.banner_1{
+    display: flex;
+    width: 1440px;
+    height: 383px;
+    left: 0px;
+    top: 100px;
+
+    background: url("/src/Images/banner_profile.png");
+}
+
+.foto_1 {
+    display: flex;
+    justify-content:right;
+    align-items: stretch;
+    margin: -150px 105px;
+    width: 300px;
+    height: 292.59px;
+    left: 115px;
+    top: 362px;
+
+    background: url("/src/Images/julieta.png")
+}
+
+.name {
+    display: flex;
+    justify-content:right;
+    align-items: stretch;
+    margin: 30px 330px;
+    width: 286px;
+    height: 43px;
+    left: 433px;
+    top: 508px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 37px;
+
+    color: #467495;
+}
+
+.localidade {
+    display: flex;
+    justify-content:right;
+    align-items: stretch;
+    margin: 30px 400px;
+    width: 263px;
+    height: 32px;
+    left: 433px;
+    top: 551px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #467495;
+}
+
+.title {
+    width: 40%;
+    display: flex;
+    justify-content:left;
+    align-items: stretch;
+    height: 100px;
+    margin: -10px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+
+color: #263B58;
+}
+
+.text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 35px;
+    margin: 50px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #263B58;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 150px;
+    height: 300px;
+    width: 100%;
+    background-color: #263b58;
+    color: #fffefe;
+}
+.footer__nav--tab {
+    padding: 5px 0;
+}
+.footer__nav--tab:hover {
+    font-weight: 700;
+    color: #ddab86;
+}
+.footer__nav p {
+    padding-top: 30px;
+}
+.footer__socials i {
+    font-size: 30px;
+    padding: 10px 10px 0 0;
+}
+.footer__socials i:hover {
+    color: #ddab86;
+}
+.footer__contact {
+    width: 400px;
+}
+.footer__contact--name, .footer__contact--email, .footer__contact--message {
+    height: 30px;
+    width: 100%;
+    margin: 5px 0;
+    border: none;
+    border-radius: 7px;
+    background-color: #467495;
+    color: #fffefe;
+    font-weight: 600;
+    padding-left: 8px;
+}
+.footer__contact--name::placeholder, .footer__contact--email::placeholder, .footer__contact--message::placeholder {
+    color: #fffefe;
+    font-weight: 400;
+    opacity: 60%;
+}
+.footer__contact--message {
+    font-family: "Roboto", sans-serif;
+    height: 80px;
+    width: 100%;
+    margin: 5px 0;
+    padding-top: 5px;
+    border: none;
+    border-radius: 7px;
+    background-color: #467495;
+}
+.footer__contact--message::placeholder {
+    color: #fffefe;
+    opacity: 60%;
+}
+.footer__contact--btn {
+    width: 60px;
+    height: 30px;
+    border: none;
+    border-radius: 7px;
+    background-color: #467495;
+    color: #fffefe;
+    font-weight: 600;
+}
+.footer__contact--btn:hover {
+    background-color: #ddab86;
+}
