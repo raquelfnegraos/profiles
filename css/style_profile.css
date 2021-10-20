@@ -72,9 +72,9 @@ a {
     width: 50px;
     height: 50px;
 }
-/* Banner_1 */
+/* Banner*/
 
-.banner_1{
+.profileHeader {
     display: flex;
     width: 1440px;
     height: 383px;
@@ -83,48 +83,46 @@ a {
 
     background: url("/src/Images/banner_profile.png");
 }
-
-.foto_1 {
+.profileHeader__img {
     display: flex;
     justify-content:right;
     align-items: stretch;
-    margin: -150px 105px;
+    margin: 230px 105px;
     width: 300px;
     height: 292.59px;
     left: 115px;
     top: 362px;
 
-    background: url("/src/Images/eleonora.png")
 }
 
-.name {
+.profileHeader__user--name {
     display: flex;
     justify-content:right;
     align-items: stretch;
-    margin: 30px 330px;
+    margin: 400px -180px;
     width: 286px;
-    height: 43px;
-    left: 433px;
+    height: 430px;
+    left: 10px;
     top: 508px;
 
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    font-size: 32px;
+    font-size: 28px;
     line-height: 37px;
 
     color: #467495;
 }
 
-.localidade {
+.profileHeader__user--localidade {
     display: flex;
     justify-content:right;
     align-items: stretch;
-    margin: 30px 400px;
+    margin: -790px -90px;
     width: 263px;
     height: 32px;
     left: 433px;
-    top: 551px;
+    top: 1551px;
 
     font-family: Roboto;
     font-style: normal;
@@ -142,31 +140,26 @@ a {
 }
 
 .profile_quemsou--title {
-    width: 40%;
+    width: 100%;
+    height: -20px;
     display: flex;
-    justify-content:left;
+    text-align: left;
+    justify-content: flex-start;
     align-items: stretch;
-    margin: 50px;
-    width: 163px;
-    height: 32px;
-    left: 154px;
-    top: 699px;
+    margin: 200px 105px;
 
     font-weight: 500;
     font-size: 22px;
     line-height: 26px;
-
 }
 
 .profile_quemsou--text {
     width: 100%;
+    height: 10px;
+    left: 150px;
     display: flex;
     flex-direction: column;
-    margin: 50px;
-    width: 1134px;
-    height: 105px;
-    left: 152px;
-    top: 760px;
+    margin: -150px 105px;
 
     font-weight: normal;
     font-size: 18px;
@@ -174,14 +167,11 @@ a {
 }
 .profile_cursos--title{
     width: 40%;
+    height: -20px;
     display: flex;
     justify-content:left;
-    align-items: stretch;
-    margin: 50px;
-    width: 322px;
-    height: 28.58px;
-    left: 156px;
-    top: 890px; 
+    align-items: flex-start;
+    margin: 250px 105px; 
 
     font-weight: 500;
     font-size: 22px;
@@ -189,13 +179,10 @@ a {
 }
 .profile_cursos--text{
     width: 100%;
+    height: 10px;
     display: flex;
     flex-direction: column;
-    margin: 50px;
-    width: 1134px;
-    height: 93.77px;
-    left: 154px;
-    top: 938.23px;
+    margin: -200px 105px;
 
     font-weight: normal;
     font-size: 18px;
@@ -203,28 +190,22 @@ a {
 }
 .profile_habilidades--title{
     width: 40%;
+    height: -20px;
     display: flex;
     justify-content:left;
-    align-items: stretch;
-    margin: 50px;
-    width: 322px;
-    height: 28.58px;
-    left: 162px;
-    top: 1057px;
+    align-items: flex-start;
+    margin: 290px 105px;
 
     font-weight: 500;
     font-size: 22px;
     line-height: 26px;
 }
 .profile_habilidades--text{
-    width: 100%;
+    width: 40%px;
+    height: 40px;
     display: flex;
     flex-direction: column;
-    margin: 50px;
-    width: 1134px;
-    height: 133px;
-    left: 160px;
-    top: 1105px;
+    margin: -200px 105px;
 
     font-weight: normal;
     font-size: 18px;
@@ -232,14 +213,11 @@ a {
 }
 .profile_disponivel--title{
     width: 40%;
+    height: 120px;
     display: flex;
     justify-content:left;
-    align-items: stretch;
-    margin: 50px;
-    width: 322px;
-    height: 28.58px;
-    left: 162px;
-    top: 1263px;
+    align-items: flex-start;
+    margin: 300px 105px;
 
     font-weight: 500;
     font-size: 22px;
@@ -247,9 +225,10 @@ a {
 }
 .profile_disponivel--text{
     width: 100%;
+    height: 80px;
     display: flex;
     flex-direction: column;
-    margin: 50px;
+    margin: -320px 105px;
 
     font-weight: normal;
     font-size: 18px;
@@ -257,28 +236,22 @@ a {
 }
 .profile_rec--title{
     width: 40%;
+    height: 20px;
     display: flex;
     justify-content:left;
-    align-items: stretch;
-    margin: 50px;
-    width: 322px;
-    height: 28.58px;
-    left: 162px;
-    top: 1428px;
+    align-items: flex-start;
+    margin: 320px 105px 0;
 
     font-weight: 500;
     font-size: 22px;
     line-height: 26px;
 }
 .profile_rec--text{
-    width: 100%;
+    width: 90%;
+    height: -110px;
     display: flex;
     flex-direction: column;
-    margin: 50px;
-    width: 1134px;
-    height: 133px;
-    left: 160px;
-    top: 1476px;
+    margin: 70px 105px;
 
     font-weight: normal;
     font-size: 18px;
