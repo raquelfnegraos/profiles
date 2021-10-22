@@ -137,123 +137,35 @@ a {
     font-style: normal;
     color: #263B58;
 }
-.profile_quemsou--title {
-    width: 100%;
-    height: -20px;
-    display: flex;
-    text-align: left;
-    justify-content: flex-start;
-    align-items: stretch;
-    margin: 200px 105px;
-
+.profile__quemsou,
+.profile__especial,
+.profile__oque,
+.profile__relato,
+.profile__necessidade{
+    width: 80%;
+    text-align:justify;
+}
+.profile__quemsou--title,
+.profile__especial--title,
+.profile__oque--title,
+.profile__relato--title,
+.profile__necessidade--title {
     font-weight: 500;
     font-size: 22px;
     line-height: 26px;
+
+    padding-bottom: 10px;
+    margin: 150px 10px 10px 150px;
+
+    border-bottom: solid 0.5px #9dc8cf;
 }
-
-.profile_quemsou--text {
-    width: 100%;
-    height: 10px;
-    left: 150px;
-    display: flex;
-    flex-direction: column;
-    margin: -150px 105px;
-
-    font-weight: normal;
-    font-size: 18px;
+.profile__quemsou--text,
+.profile__especial--text,
+.profile__necessidade--text,
+.profile__oque--text,
+.profile__relato--text{
     line-height: 21px;
-}
-.profile_especial--title {
-    width: 40%;
-    height: -20px;
-    display: flex;
-    justify-content:left;
-    align-items: flex-start;
-    margin: 250px 105px; 
-
-    font-weight: 500;
-    font-size: 22px;
-    line-height: 26px;
-}
-.profile_especial--text{
-    width: 100%;
-    height: 10px;
-    display: flex;
-    flex-direction: column;
-    margin: -200px 105px;
-
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 21px;
-}
-.profile_oque--title {
-    width: 40%;
-    height: -20px;
-    display: flex;
-    justify-content:left;
-    align-items: flex-start;
-    margin: 270px 105px;
-
-    font-weight: 500;
-    font-size: 22px;
-    line-height: 26px;
-}
-.profile_oque--text{
-    width: 40%px;
-    height: 40px;
-    display: flex;
-    flex-direction: column;
-    margin: -200px 105px;
-
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 21px;
-}
-.profile_necessidade--title {
-    width: 40%;
-    height: 120px;
-    display: flex;
-    justify-content:left;
-    align-items: flex-start;
-    margin: 300px 105px;
-
-    font-weight: 500;
-    font-size: 22px;
-    line-height: 26px;
-}
-.profile_necessidade--text{
-    width: 100%;
-    height: 80px;
-    display: flex;
-    flex-direction: column;
-    margin: -320px 105px;
-
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 21px;
-}
-.profile_relato--title {
-    width: 40%;
-    height: 20px;
-    display: flex;
-    justify-content:left;
-    align-items: flex-start;
-    margin: 320px 105px 0;
-
-    font-weight: 500;
-    font-size: 22px;
-    line-height: 26px;
-}
-.profile_relato--text{
-    width: 90%;
-    height: -110px;
-    display: flex;
-    flex-direction: column;
-    margin: 70px 105px;
-
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 21px;
+    margin: 10px 10px 30px 150px;
 }
 
 .footer {
