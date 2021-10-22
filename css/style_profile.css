@@ -138,124 +138,35 @@ a {
     font-style: normal;
     color: #263B58;
 }
-
-.profile_quemsou--title {
+.profile__quemsou,
+.profile__cursos,
+.profile__habilidades,
+.profile__disponivel,
+.profile__rec{
     width: 100%;
-    height: -20px;
-    display: flex;
-    text-align: left;
-    justify-content: flex-start;
-    align-items: stretch;
-    margin: 200px 105px;
-
+    text-align: justify;
+}
+.profile__quemsou--title,
+.profile__cursos--title,
+.profile__habilidades--title,
+.profile__disponivel--title,
+.profile__rec--title {
     font-weight: 500;
     font-size: 22px;
     line-height: 26px;
+
+    padding-bottom: 10px;
+    margin: 150px 10px 10px 150px;
+
+    border-bottom: solid 0.5px #9dc8cf;
 }
-
-.profile_quemsou--text {
-    width: 100%;
-    height: 10px;
-    left: 150px;
-    display: flex;
-    flex-direction: column;
-    margin: -150px 105px;
-
-    font-weight: normal;
-    font-size: 18px;
+.profile__quemsou--text,
+.profile__cursos--text,
+.profile__habilidades--text,
+.profile__disponivel--text,
+.profile__rec--text{
     line-height: 21px;
-}
-.profile_cursos--title{
-    width: 40%;
-    height: -20px;
-    display: flex;
-    justify-content:left;
-    align-items: flex-start;
-    margin: 250px 105px; 
-
-    font-weight: 500;
-    font-size: 22px;
-    line-height: 26px;
-}
-.profile_cursos--text{
-    width: 100%;
-    height: 10px;
-    display: flex;
-    flex-direction: column;
-    margin: -200px 105px;
-
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 21px;
-}
-.profile_habilidades--title{
-    width: 40%;
-    height: -20px;
-    display: flex;
-    justify-content:left;
-    align-items: flex-start;
-    margin: 290px 105px;
-
-    font-weight: 500;
-    font-size: 22px;
-    line-height: 26px;
-}
-.profile_habilidades--text{
-    width: 40%px;
-    height: 40px;
-    display: flex;
-    flex-direction: column;
-    margin: -200px 105px;
-
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 21px;
-}
-.profile_disponivel--title{
-    width: 40%;
-    height: 120px;
-    display: flex;
-    justify-content:left;
-    align-items: flex-start;
-    margin: 300px 105px;
-
-    font-weight: 500;
-    font-size: 22px;
-    line-height: 26px;
-}
-.profile_disponivel--text{
-    width: 100%;
-    height: 80px;
-    display: flex;
-    flex-direction: column;
-    margin: -320px 105px;
-
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 21px;
-}
-.profile_rec--title{
-    width: 40%;
-    height: 20px;
-    display: flex;
-    justify-content:left;
-    align-items: flex-start;
-    margin: 320px 105px 0;
-
-    font-weight: 500;
-    font-size: 22px;
-    line-height: 26px;
-}
-.profile_rec--text{
-    width: 90%;
-    height: -110px;
-    display: flex;
-    flex-direction: column;
-    margin: 70px 105px;
-
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 21px;
+    margin: 10px 10px 30px 150px;
 }
 
 .footer {
